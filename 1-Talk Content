@@ -1,0 +1,40 @@
+Talk Plan :-
+------------
+History
+
+Demo
+
+Terminologies
+
+Flow Diagram
+
+Mail exchange servers
+
+MX Records
+
+IMAP & POP3
+
+Why Postfix --> Instant capturing
+
+postfix error codes 
+
+Original mail source 
+
+Mail text_part & html_part
+
+Significance of Message-ID & References
+
+Attachments
+
+Call required API
+
+
+Gotchas :-
+----------
+1) All mail clients send the data in different manner
+
+2) When to & from address is same then reply_to is ignored by gmail (not by outlook)
+
+3) When replied to mail having a reply_to address some clients sends mail to the email_id converted to all lower-case letters (so, don't depend on keys set on reply_to having mixed case)
+
+4) Some companies send their user's email with prvs tag as prvs=tag-value=mailbox@example.com

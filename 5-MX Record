@@ -1,0 +1,7 @@
+What are MX records :-
+----------------------
+An MX Record is used by a mail server to route incoming email. Changing your MX record is usually done to redirect email to a remote server. It can also be used as a temporary backup in case the local mail server goes down.
+
+MX records are DNS settings associated with your domain that direct its mail to the servers hosting your users' mail accounts. These settings are managed by your domain host, not by Google. To make sure mail always gets delivered, you typically create records for multiple servers, all of which can deliver mail to users. That way, if one server is down, mail can be routed to another server, instead. You determine which servers get tried first by assigning priorities, using values like 10, 20, 30, and so on. The lowest value gets highest priority.
+
+For instance, if the domain example.com has two MX records 10 mail1.example.com and 20 mail2.example.com mail is delivered first to 10 mail1.example.com because it has the lowest number priority. If that server is down, mail is redirected to 20 mail2.example.com, and so on. If different MX records have the same priority, one server is chosen arbitrarily.

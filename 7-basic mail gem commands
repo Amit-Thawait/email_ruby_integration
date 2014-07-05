@@ -1,0 +1,15 @@
+Some Basic mail gems commands :-
+================================
+mail = Mail.read('<path-to-orginal-mail-source>')
+
+Actual mail content can be obtained by
+actual_content = mail.text_part.decoded
+
+Attachments can be obtained by 
+attachments = mail.attachments # Retuns an array
+
+attachments.each do |attachment|
+  File.open('<attachment_name>', "wb", 0644) {|f| f.write attachment.body.decoded}
+end
+
+

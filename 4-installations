@@ -1,0 +1,39 @@
+Video Link for this :-
+-----------------------
+Sending mail using mailutils :- https://www.youtube.com/watch?v=0z0d0n403tc
+
+Tells about securing postfix from spammers :- http://www.youtube.com/watch?v=dw76BOJNdvs
+
+
+Some basic commands :- (Please watch the above video's before using these commands)
+-----------------------------------------------------------------------------------
+sudo apt-get install postfix
+
+cd /etc/postfix
+
+main.cf
+master.cf -- configs
+
+sudo apt-get install mailutils
+
+sudo su -
+
+mail (for checking mail for root user)
+
+mail <user_name>  (Ex: mail <username>)
+
+ctrl-d to close the mail
+
+exit from root user
+
+useraccount> mail (to check mails for the user to whom mail was sent)
+
+1 enter
+
+q (quit)
+
+Go to Home do ls
+
+check for mbox file (mails reside here)
+
+cat mbox

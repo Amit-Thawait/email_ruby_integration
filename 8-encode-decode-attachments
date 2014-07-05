@@ -1,0 +1,13 @@
+require 'base64' while using irb
+
+For encoding/decoding an attachment :-
+---------------------------------------
+encoded_attachment = Base64.encode64(File.read('<path-of-attachment>'))
+
+decoded_attachment = Base64.decode64(x)
+
+
+Converting the encoded Base64 code back to attachment :-
+--------------------------------------------------------
+File.open('<name-of-attachment>', 'wb') {|f| f.write(Base64.decode64(encoded_attachment)) }
+

@@ -1,0 +1,94 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: amitt@mangospring.com
+Received: by 10.64.28.115 with SMTP id a19csp387994ieh;
+        Wed, 9 Apr 2014 21:40:56 -0700 (PDT)
+X-Received: by 10.50.154.66 with SMTP id vm2mr14383821igb.4.1397104856585;
+        Wed, 09 Apr 2014 21:40:56 -0700 (PDT)
+Return-Path: <amit.thawait@yahoo.com>
+Received: from nm48.bullet.mail.ne1.yahoo.com (nm48.bullet.mail.ne1.yahoo.com. [98.138.120.55])
+        by mx.google.com with SMTP id su8si8385285igc.30.2014.04.09.21.40.56
+        for <amitt@mangospring.com>;
+        Wed, 09 Apr 2014 21:40:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of amit.thawait@yahoo.com designates 98.138.120.55 as permitted sender) client-ip=98.138.120.55;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of amit.thawait@yahoo.com designates 98.138.120.55 as permitted sender) smtp.mail=amit.thawait@yahoo.com;
+       dkim=pass header.i=@yahoo.com;
+       dmarc=pass (p=REJECT dis=NONE) header.from=yahoo.com
+Received: from [127.0.0.1] by nm48.bullet.mail.ne1.yahoo.com with NNFMP; 10 Apr 2014 04:40:56 -0000
+Received: from [98.138.100.111] by nm48.bullet.mail.ne1.yahoo.com with NNFMP; 10 Apr 2014 04:37:57 -0000
+Received: from [106.10.166.123] by tm100.bullet.mail.ne1.yahoo.com with NNFMP; 10 Apr 2014 04:37:21 -0000
+Received: from [106.10.150.26] by tm12.bullet.mail.sg3.yahoo.com with NNFMP; 10 Apr 2014 04:37:21 -0000
+Received: from [127.0.0.1] by omp1027.mail.sg3.yahoo.com with NNFMP; 10 Apr 2014 04:37:21 -0000
+X-Yahoo-Newman-Property: ymail-4
+X-Yahoo-Newman-Id: 376997.20255.bm@omp1027.mail.sg3.yahoo.com
+Received: (qmail 46070 invoked by uid 60001); 10 Apr 2014 04:37:21 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024; t=1397104641; bh=RhjWtcwbDH3EVPm8+e6OiBbcQlDDVwnOkc/Kh4SPT6Y=; h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:Message-ID:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type; b=g30H6GnbwZVxKBSGqZd2UjBNhfLz7rL5CezIDnkMwWhGhgD+Rfl8LwHP3aN/YzfjdjHbvDNAizGVr3tYK/dsOEwLxkaao4vQLgbzxjQxQsYZJ6EXOSeZucuqh+GUm6yUEGOEeV2B1JlP2QpDpS2pizzTnsG9or7GYHtpioRqZ7Y=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.com;
+  h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:Message-ID:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type;
+  b=j4oyuGKlvlc2G9VTwm0HdIK4beEkZCatXyNMaqRjglUZqA6xVD8HHD5AI63n9NzR7tCu0Ptz3LM6TRQISA6zwgExkiKOEDCQN0IuSggbRKWTryMW2usK3A6kQDNl+dG5lMMEN/uQWEXwSd6X1CgBtCPwiZbvEXJKAvSf9PPV0NU=;
+X-YMail-OSG: fOw6LjkVM1l8_iTdbMW.1vv6M8idjEQuKIx4j_dderDVH76
+ Tae_x5KiVZeg7.ZIthfj_rp9_iAJlfL5cquLJzPz5PECG6fw93bU6Ojm8nzy
+ WNbqa19ogSeqiesOzuIQJZ6VCm_HXo7RXkXuFfJ3DPhJdttHvN.JgrGtWYGk
+ j_kxgBfDvJ_9IdDN5L2SQOQrjJzrTPTWag0iVF3TGbI7svywUm7DTRTDMfS0
+ zhxkI2AIOLrFs1sIIPLikpQwfqMyT72YNL3lSyAJ63kMrQUmT7Swl10pjmeT
+ xfTBoryPD4S_W6vbpqASnvgAN.LsuOTkz.nzTKoZvolP7S.7Rz5kEt86e.ag
+ Vuh4Jrwu6BDJLmK8kHxOQabZwTQgPqbnofmgOkP9Rey9Eiesm3h2G6rDUtCr
+ huxRw5kmopLaiE164VQWfgX02OBPbgw_TuQ5pBpxaCkLWCQ9aeWG5AHRirc7
+ mmLvGzakRDaqPTVWrE5U7tUeBGXU2u6jwKiyfo3SYhJ5ex6wnmXeClInN_3k
+ 98EGg
+Received: from [115.111.107.30] by web190301.mail.sg3.yahoo.com via HTTP; Thu, 10 Apr 2014 12:37:21 SGT
+X-Rocket-MIMEInfo: 002.001,SGkgYWxsLAoKVGhpcyBpcyBhIHRlc3QgbWFpbCBmcm9tIHlhaG9vLgoKQ2hlY2tpbmcgZm9ybWF0dGluZyBpc3N1ZS4KSG9wZSwgdGhpcyBpcyB3aWxsIGJlIGZpbmlzaGVkIHF1aWNrbHkuCgpUaGFua3MsCkFtaXQgWWFob28KUGhvbmUgOiA4MDgwNjg2NzM1ATABAQEB
+X-Mailer: YahooMailWebService/0.8.182.648
+Message-ID: <1397104641.25228.YahooMailNeo@web190301.mail.sg3.yahoo.com>
+Date: Thu, 10 Apr 2014 12:37:21 +0800 (SGT)
+From: Amit Thawait <amit.thawait@yahoo.com>
+Reply-To: Amit Thawait <amit.thawait@yahoo.com>
+Subject: Test mail from Yahoo
+To: "amitt@mangospring.com" <amitt@mangospring.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="1448755381-1299060964-1397104641=:25228"
+
+--1448755381-1299060964-1397104641=:25228
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi all,=0A=0AThis is a test mail from yahoo.=0A=0AChecking formatting issue=
+.=0AHope, this is will be finished quickly.=0A=0AThanks,=0AAmit Yahoo=0APho=
+ne : 8080686735
+--1448755381-1299060964-1397104641=:25228
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"color:#000; background-color:#fff; font-family:He=
+lvetica Neue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial,=
+ Lucida Grande, Sans-Serif;font-size:8pt"><div>Hi all,</div><div><br></div>=
+<div style=3D"color: rgb(0, 0, 0); font-size: 11px; font-family: 'Helvetica=
+ Neue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, '=
+Lucida Grande', sans-serif; background-color: transparent; font-style: norm=
+al;">This is a test mail from yahoo.</div><div style=3D"color: rgb(0, 0, 0)=
+; font-size: 11px; font-family: 'Helvetica Neue-Light', 'Helvetica Neue Lig=
+ht', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; backg=
+round-color: transparent; font-style: normal;"><br></div><div style=3D"colo=
+r: rgb(0, 0, 0); font-size: 11px; font-family: 'Helvetica Neue-Light', 'Hel=
+vetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sa=
+ns-serif; background-color: transparent; font-style: normal;">Checking
+ formatting issue.</div><div style=3D"color: rgb(0, 0, 0); font-size: 11px;=
+ font-family: 'Helvetica Neue-Light', 'Helvetica Neue Light', 'Helvetica Ne=
+ue', Helvetica, Arial, 'Lucida Grande', sans-serif; background-color: trans=
+parent; font-style: normal;">Hope, this is will be finished quickly.</div><=
+div style=3D"color: rgb(0, 0, 0); font-size: 11px; font-family: 'Helvetica =
+Neue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'L=
+ucida Grande', sans-serif; background-color: transparent; font-style: norma=
+l;"><br></div><div style=3D"color: rgb(0, 0, 0); font-size: 11px; font-fami=
+ly: 'Helvetica Neue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helve=
+tica, Arial, 'Lucida Grande', sans-serif; background-color: transparent; fo=
+nt-style: normal;">Thanks,</div><div style=3D"color: rgb(0, 0, 0); font-siz=
+e: 11px; font-family: 'Helvetica Neue-Light', 'Helvetica Neue Light', 'Helv=
+etica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+ background-color: transparent; font-style: normal;">Amit Yahoo</div><div s=
+tyle=3D"color: rgb(0, 0, 0); font-size: 11px; font-family: 'Helvetica Neue-=
+Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida=
+ Grande', sans-serif; background-color: transparent; font-style: normal;">P=
+hone : 8080686735</div></div></body></html>
+--1448755381-1299060964-1397104641=:25228--

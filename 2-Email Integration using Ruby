@@ -1,0 +1,38 @@
+Sendmail (mail transfer agent):-
+================================
+Sendmail is a general purpose internetwork email routing facility that supports many kinds of mail-transfer and delivery methods, including the Simple Mail Transfer Protocol (SMTP) used for email transport over the Internet.
+
+Simple Mail Transfer Protocol (SMTP) is an Internet standard for electronic mail (e-mail) transmission.
+
+SMTP by default uses TCP port 25. The protocol for mail submission is the same, but uses port 587. SMTP connections secured by SSL, known as SMTPS, default to port 465.
+
+While electronic mail servers and other mail transfer agents use SMTP to send and receive mail messages, user-level client mail applications typically use SMTP only for sending messages to a mail server for relaying. For receiving messages, client applications usually use either the POP3 or the IMAP.
+
+While proprietary systems (such as Microsoft Exchange and Lotus Notes/Domino) and webmail systems (such as Hotmail, Gmail and Yahoo! Mail) use their own non-standard protocols to access mail box accounts on their own mail servers, all use SMTP when sending or receiving email from outside their own systems.
+
+
+Postfix :-
+==========
+Postfix is a free and open-source mail transfer agent (MTA) that routes and delivers electronic mail, intended as an alternative to the widely used Sendmail MTA.
+
+
+MTA (Message transfer agent) :-
+===============================
+Within Internet message handling services (MHS), a message transfer agent[1] or mail transfer agent[2] (MTA) or mail relay is software that transfers electronic mail messages from one computer to another. An MTA implements both the client (sending) and server (receiving) portions of the Simple Mail Transfer Protocol.[3]
+
+The terms mail server, mail exchanger, and MX host may also refer to a computer performing the MTA function. The Domain Name System (DNS) associates a mail server to a domain with mail exchanger (MX) resource records containing the domain name of a host providing MTA services.
+
+
+
+POP3 &IMAP :-
+=============
+In computing, the Post Office Protocol (POP) is an application-layer Internet standard protocol used by local e-mail clients to retrieve e-mail from a remote server over a TCP/IP connection.[1] POP has been developed through several versions, with version 3 (POP3) being the current standard.
+
+Virtually all modern e-mail clients and servers support POP3, and it along with IMAP (Internet Message Access Protocol) are the two most prevalent Internet standard protocols for e-mail retrieval,[2] with many webmail service providers such as Gmail, Outlook.com and Yahoo! Mail also providing support for either IMAP or POP3 to allow mail to be downloaded.
+
+Internet Message Access Protocol (IMAP) is a protocol for e-mail retrieval and storage developed by Mark Crispin in 1986 at Stanford University as an alternative to POP. IMAP unlike POP, specifically allows multiple clients simultaneously connected to the same mailbox, and through flags stored on the server, different clients accessing the same mailbox at the same or different times can detect state changes made by other clients.
+
+
+Dovecot :-
+==========
+It is an open source IMAP and POP3 server for *NIX-like systems, written primarily with security in mind.
